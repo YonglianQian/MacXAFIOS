@@ -14,6 +14,11 @@ echo "NUnit tests result:"
 pathOfTestResults=$(find $APPCENTER_SOURCE_DIRECTORY -name 'TestResult.xml')
 cat $pathOfTestResults
 echo
+echo "------------ls------"
+ls
+echo "----------ls /Users/runner/work/1/s/--------"
+ls /Users/runner/work/1/s/
+
 #look for a failing test
 grep -q 'result="Failed"' $pathOfTestResults
 
