@@ -17,13 +17,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="MacXAFIOS" expanded="True" selected="True">
-            <Node name="NUnitTest" expanded="True">
-              <Node name="NUnitTest" expanded="True">
-                <Node name="Test" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="MacXAFIOS" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
