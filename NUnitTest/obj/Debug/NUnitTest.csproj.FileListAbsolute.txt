@@ -1,0 +1,10 @@
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/bin/Debug/NUnitTest.dll
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/bin/Debug/NUnitTest.pdb
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/bin/Debug/nunit.framework.dll
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/bin/Debug/nunit.framework.pdb
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/bin/Debug/nunit.framework.xml
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/obj/Debug/NUnitTest.csprojAssemblyReference.cache
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/obj/Debug/NUnitTest.csproj.CoreCompileInputs.cache
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/obj/Debug/NUnitTest.csproj.CopyComplete
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/obj/Debug/NUnitTest.dll
+/Users/msdnuwp/Desktop/Repos/MacXAFIOS/NUnitTest/obj/Debug/NUnitTest.pdb
