@@ -1,25 +1,15 @@
-echo "Found NUnit test projects:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec echo {} \;
-echo
-echo "Building NUnit test projects:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*Test.*\.csproj' -exec msbuild {} \;
-echo
-echo "Compiled projects to run NUnit tests:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*Test.*\.dll' -exec echo {} \;
-echo
-echo "Running NUnit tests:"
-find $APPCENTER_SOURCE_DIRECTORY -regex '.*bin.*Test.*\.dll' -exec nunit3-console {} +
-echo
+#Android post build script
+#Make sure the directly to the NUnit csproj is correct
+ProjectPath="$APPCENTER_SOURCE_DIRECTORY\NUnitTest\NUnitTest.csproj"
+echo "$ProjectPath"
+#To generate the xml file it requires nuget NunitXml.TestLogger
+dotnet test "$APPCENTER_SOURCE_DIRECTORY" --logger:"nunit;LogFilePath=TestResults.xml"
 echo "NUnit tests result:"
-pathOfTestResults=$(find $APPCENTER_SOURCE_DIRECTORY -name 'TestResult.xml')
+pathOfTestResults=$(find $APPCENTER_SOURCE_DIRECTORY -name 'TestResults.xml')
 cat $pathOfTestResults
 echo
-echo "------------ls------"
-ls
-echo "----------ls /Users/runner/work/1/s/--------"
-ls /Users/runner/work/1/s/
 
-#look for a failing test
+#Looks for a failing test and causes the build to fail if found
 grep -q 'result="Failed"' $pathOfTestResults
 
 if [[ $? -eq 0 ]]
@@ -29,4 +19,3 @@ exit 1
 else 
 echo "All tests passed" 
 fi
-
