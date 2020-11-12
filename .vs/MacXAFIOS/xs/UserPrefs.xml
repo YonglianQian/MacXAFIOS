@@ -9,9 +9,7 @@
         <State name="__root__">
           <Node name="MacXAFIOS" expanded="True">
             <Node name="MacXAFIOS" expanded="True" />
-            <Node name="NUnitTest" expanded="True">
-              <Node name="Test.cs" selected="True" />
-            </Node>
+            <Node name="NUnitTest" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
