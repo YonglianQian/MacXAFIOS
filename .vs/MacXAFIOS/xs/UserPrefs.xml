@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.MacXAFIOS.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A3AAAB01-09A0-49E7-97C1-E06A712B0C77" />
   <MonoDevelop.Ide.Workbench ActiveDocument="NUnitTest/Test.cs">
     <Files>
-      <File FileName="NUnitTest/Test.cs" Line="11" Column="20" />
+      <File FileName="NUnitTest/Test.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +17,17 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="MacXAFIOS" expanded="True" selected="True" />
+          <Node name="MacXAFIOS" expanded="True" selected="True">
+            <Node name="NUnitTest" expanded="True">
+              <Node name="NUnitTest" expanded="True">
+                <Node name="Test" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.NUnitTest FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
